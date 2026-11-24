@@ -1,0 +1,25 @@
+FASTDOWN1.0 A17 actual verification
+
+TEST_PERFORMANCE.cpp GCC compile: PASS
+
+TEST_PERFORMANCE.cpp: PASS 1 execution
+TEST_A16_SCHEDULER.cpp GCC compile: PASS
+
+TEST_A16_SCHEDULER.cpp: PASS 1 execution
+TEST_A17_ADMISSION.cpp GCC compile: PASS
+
+TEST_A17_ADMISSION.cpp: PASS 12 consecutive executions
+Clang++ independent portable policy compile/run: PASS
+Visual Studio XML and vcpkg JSON: PASS
+30 new palette and 30 new layout seed entries: PASS
+Engine/UI integration source anchors: PASS (static, NOT MSVC compile)
+Offline full-source viewer, Node syntax: PASS
+FASTDOWN1.0_A17_Engine_Package.zip: ZIP CRC integrity PASS, 11 files
+FASTDOWN1.0_A17_UI_Package.zip: ZIP CRC integrity PASS, 3 files
+FASTDOWN1.0_A17_Build_Package.zip: ZIP CRC integrity PASS, 5 files
+FASTDOWN1.0_A17_Complete_Visual_Studio.zip: ZIP CRC integrity PASS, 22 files
+
+NOT VERIFIED: Full MSVC build, GUI rendering, live network transfers, 5x throughput, 10x design improvement.
+A17 late review: single-stream HTTP 200 interrupted-body retries restored; range 200 still fails.
+UI_CONCEPT_A17.html: Node --check PASS, static HTML sample-data preview.
+A17 final bundle: ZIP CRC tests PASS.
